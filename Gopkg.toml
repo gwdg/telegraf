@@ -99,6 +99,11 @@
   branch = "master"
 
 [[constraint]]
+  name = "github.com/libvirt/libvirt-go"
+  branch = "master"
+  version = "5.5.0"
+
+[[constraint]]
   name = "github.com/matttproud/golang_protobuf_extensions"
   version = "1.0.1"
 
