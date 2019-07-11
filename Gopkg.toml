@@ -100,7 +100,6 @@
 
 [[constraint]]
   name = "github.com/libvirt/libvirt-go"
-  branch = "master"
   version = "5.5.0"
 
 [[constraint]]
