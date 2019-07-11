@@ -15,18 +15,28 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/influxdata/telegraf/agent"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/config"
-	"github.com/influxdata/telegraf/logger"
-	_ "github.com/influxdata/telegraf/plugins/aggregators/all"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	_ "github.com/influxdata/telegraf/plugins/inputs/all"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	_ "github.com/influxdata/telegraf/plugins/outputs/all"
-	_ "github.com/influxdata/telegraf/plugins/processors/all"
-	"github.com/kardianos/service"
-)
+	    /*"github.com/influxdata/telegraf/agent"
+        "github.com/influxdata/telegraf/internal"
+        "github.com/influxdata/telegraf/internal/config"
+        "github.com/influxdata/telegraf/logger"
+        _ "github.com/influxdata/telegraf/plugins/aggregators/all"
+        "github.com/influxdata/telegraf/plugins/inputs"
+        _ "github.com/influxdata/telegraf/plugins/inputs/all"
+        "github.com/influxdata/telegraf/plugins/outputs"
+        _ "github.com/influxdata/telegraf/plugins/outputs/all"
+        _ "github.com/influxdata/telegraf/plugins/processors/all"*/
+        "github.com/gwdg/telegraf/agent"
+        "github.com/gwdg/telegraf/internal"
+        "github.com/gwdg/telegraf/internal/config"
+        "github.com/gwdg/telegraf/logger"
+        _ "github.com/gwdg/telegraf/plugins/aggregators/all"
+        "github.com/gwdg/telegraf/plugins/inputs"
+        _ "github.com/gwdg/telegraf/plugins/inputs/all"
+        "github.com/gwdg/telegraf/plugins/outputs"
+        _ "github.com/gwdg/telegraf/plugins/outputs/all"
+        _ "github.com/gwdg/telegraf/plugins/processors/all"
+        "github.com/kardianos/service"
+    )
 
 var fDebug = flag.Bool("debug", false,
 	"turn on debug logging")
