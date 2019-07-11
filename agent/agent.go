@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gwdg/telegraf"
-	"github.com/gwdg/telegraf/internal"
-	"github.com/gwdg/telegraf/internal/config"
-	"github.com/gwdg/telegraf/internal/models"
-	"github.com/gwdg/telegraf/plugins/serializers/influx"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
+	"github.com/influxdata/telegraf/internal/config"
+	"github.com/influxdata/telegraf/internal/models"
+	"github.com/influxdata/telegraf/plugins/serializers/influx"
 )
 
 // Agent runs a set of plugins.
